@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+    text-decoration: underline;
+    background-color:  rgb(95, 95, 179);
+    color: lightblue;
+}
