@@ -17,9 +17,7 @@ h1{
 }
 img#perfil{
     border-radius: 90px;;
-    box-shadow: 8px 4px 25px black;
-    
-    
+    box-shadow: 8px 4px 25px black; 
 }
 h2{
     color: #DE6349;
