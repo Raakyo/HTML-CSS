@@ -45,3 +45,28 @@ a:hover{
 p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+button{
+    color: #ddad97;
+    height: 20px;
+    width: 90px;
+    background-color:#DE6349;
+    border: 2px solid #8a492b; 
+    border-radius: 5px;  
+    margin: 10px 10px;
+    text-align: center;
+    font-weight: lighter;
+}
+button:hover{
+    background-color: #8a492b;
+    color:#DE6349;
+    display: inline-block;
+    border:  2px solid #bb4730;
+}
+.botao{
+    translate: .35s;
+    cursor: pointer; 
+}
+.container:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9); 
+}
