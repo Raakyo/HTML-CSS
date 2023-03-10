@@ -12,17 +12,22 @@ h1{
     background-color:#DE6349 ;
     color:#F48C5D;
     text-shadow: 2px 2px 2px black;
-    margin: 4px 0px;
-    padding: 5px;
+    height: 30px;
+    margin: 0px ;
+    padding: 10px;
     text-align: center;
+    box-shadow: 1px 1px 10px 1px black;
+
 }
 #quemsou{
     text-align: center;
+    margin: 10px 10px 20px 10px;
 }
 img#perfil{
     border-radius: 90px;
-    box-shadow: 8px 4px 25px black; 
-    margin: 10px;
+    box-shadow: 4px 5px 15px 1px black; 
+    margin: 40px 10px;
+    padding: 10px;
 }
 h2{
     color: #DE6349;
@@ -43,30 +48,10 @@ a:hover{
     color: darkred;
 }
 p{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    border: 1px solid black;
+    box-shadow: 2px 1px 2px 1px black;
+    margin: 10px;
+    padding: 10px 10px;
 }
-button{
-    color: #ddad97;
-    height: 20px;
-    width: 90px;
-    background-color:#DE6349;
-    border: 2px solid #8a492b; 
-    border-radius: 5px;  
-    margin: 10px 10px;
-    text-align: center;
-    font-weight: lighter;
-}
-button:hover{
-    background-color: #8a492b;
-    color:#DE6349;
-    display: inline-block;
-    border:  2px solid #bb4730;
-}
-.botao{
-    translate: .35s;
-    cursor: pointer; 
-}
-.container:hover > :not(:hover){
-    opacity: .4;
-    transform: scale(0.9); 
-}
+
