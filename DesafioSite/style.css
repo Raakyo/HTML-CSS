@@ -52,8 +52,9 @@ nav > button:hover{
     border-radius: 20px 2px;
 }
  main#fundobranco{
-    margin: 0px 120px 0px 120px;
+    margin: 0px 120px 30px 120px;
     background-color: white;
+    border-radius: 0px 0px 20px 20px;
  }
  article > h1{
     font-style: italic;
@@ -70,7 +71,7 @@ nav > button:hover{
     text-indent: 2em;
  }
  article > p{
-    text-align: justify;
+    text-align:center;
     text-indent: 2em;
     padding: 10px 20px 10px 20px;
  }
@@ -109,6 +110,9 @@ aside{
     background-color: #436120;
     padding: 3px 0px 3px 0px;
     margin: 0px 0px 0px 0px;
+}
+#Paragrafofinal{
+    padding: 10px 10px 20px 10px;
 }
 
 
