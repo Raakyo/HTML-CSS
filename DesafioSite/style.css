@@ -6,6 +6,12 @@
     font-weight: normal;
 }
 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 :root {
     --cor0: #436120;
     --cor1: #7BE007;
@@ -17,13 +23,16 @@ body{
     padding: 0px;
     background-color: var(--cor1);
 }
+a.extreno::after{
+    content: '\1f517';
+}
 
 header{
     background-image:linear-gradient(to bottom,  var(--cor1),var(--cor0));
     color: white;
     font-family: 'idroid.otf', sans-serif;
-    height: 200px;
-    margin: 0px;
+    min-height: 150px;
+    padding-top: 40px;
 }
 
 #titulo{
@@ -31,18 +40,20 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 10px 10px 10px;
-    margin: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3em;
 }
 
 #subtitu{
     text-shadow: 1px 1px 1px black;
-    font-size: large;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 2px 10px 2px;
-    margin: 10px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 nav{
@@ -56,11 +67,13 @@ nav > button{
     height: 20px;
     width: 140px;
     margin-bottom: 5px;
+    margin-left: 20px;
     padding: 1px 1px 10px 1px;
     background-color: var(--cor0);
     color: white;
     font-weight: bold;
     border: 1px solid var(--cor0);
+    transition-duration: .5s;
 }
 
 nav > button:hover{
@@ -71,9 +84,13 @@ nav > button:hover{
 }
 
  main#fundobranco{
-    margin: 0px 120px 30px 120px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    margin-bottom:  30px;
     background-color: white;
     border-radius: 0px 0px 20px 20px;
+
  }
 
  article > h1{
@@ -83,6 +100,7 @@ nav > button:hover{
     color: #5e9e14;
     text-indent: 3em;
     font-family: 'idroid';
+    line-height: 2em;
  }
  
  article > h2{
@@ -92,8 +110,25 @@ nav > button:hover{
     color: var(--cor1);
     text-indent: 2.5em;
     font-family:'idroid';
+    line-height: 2em;
  }
 
+ main strong{
+    color: var(--cor1);
+    font-weight: bold;
+    padding: 0px 2px;
+ }
+ main a{
+    color: var(--cor0);
+    background-color: var(--cor1);
+    padding: 2px;
+ }
+ 
+ main a:hover{
+    text-decoration: underline;
+    color:var(--cor1);
+    background-color: var(--cor2);
+ }
  article > p{
     text-align: justify;
     text-indent: 2em;
@@ -107,7 +142,6 @@ nav > button:hover{
  .image{
     display: flex;
     justify-content: center;
-    margin: 10px 100px 10px 100px;
  }
 
  main > p{
@@ -119,21 +153,27 @@ nav > button:hover{
 
  #video{
     background-color:var(--cor0);
-    padding: 20px 230px 20px 230px;
+    padding: 20px 20px;
     margin: 0px 0px 0px 0px;
     display: flex;
+    min-width: 300px;
     justify-content: center;  
  }
 
 aside{
-   padding: 0px 0px 10px 0px;
+   padding:10px;
    margin: 20px 20px 20px 20px;
    border: 1px solid var(--cor0);
    border-radius: 20px 20px;
    background-color: var(--cor2);
    
 }
-
+aside > ul{
+    list-style-position: inside;
+    list-style-type: '\2714';
+    columns: 2;
+    line-height: 2em;
+}
 aside > h3{
     text-align: center;
     padding: 10px 10px;
@@ -146,11 +186,9 @@ aside > P{
 
 #quermais{
     border: 1px solid var(--cor0);
-    border-radius: 20px 20px 0px 0px ;
+    border-radius: 20px 20px;
     color: white;
     background-color: var(--cor0);
-    padding: 3px 0px 3px 0px;
-    margin: 0px 0px 0px 0px;
 }
 
 #Paragrafofinal{
