@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.nome{
+    flex: 1px 0px 130px;
+}
+
+#email{
+    flex: 1px 0px 130px;
+}
+button{
+    flex: 1px 0px 40px;
+}
